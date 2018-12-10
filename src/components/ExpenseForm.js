@@ -81,7 +81,6 @@ export default class ExpenseForm extends React.Component {
                     onChange={this.onAmountChange}
                 />
                 <SingleDatePicker
-                    className="text-input"
                     date={this.state.createdAt}
                     onDateChange={this.onDateChange}
                     focused={this.state.calendarFocused}
