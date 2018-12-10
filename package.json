@@ -1,0 +1,49 @@
+{
+  "name": "expensify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Travis Spanu",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "apollo-boost": "^0.1.22",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "moment": "^2.22.2",
+    "normalize.css": "^8.0.0",
+    "npm": "^6.4.1",
+    "numeral": "^2.0.6",
+    "parcel-bundler": "^1.10.3",
+    "react": "^16.6.0",
+    "react-apollo": "^2.3.2",
+    "react-dates": "^18.2.2",
+    "react-dom": "^16.6.0",
+    "react-modal": "^3.6.1",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "sass": "^1.14.3",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir prod",
+    "test": "jest --config=jest.config.json",
+    "heroku-postbuild": "npm run build"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "^23.6.0"
+  }
+}
